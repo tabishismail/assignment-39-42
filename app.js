@@ -43,3 +43,26 @@
 // }
 // var area= two(a,b,c,s);
 // console.log(area);
+
+// Assignment # 4
+
+function main(){
+    var english=+prompt("Enter English marks");
+    var maths=+prompt("Enter Maths marks");
+    var computer=+prompt("Enter Computer marks");
+    var avg;
+    var per;
+    function average(a,b,c){
+        var aver =a+b+c;
+        return aver;
+    }
+    avg =average(english,maths,computer)
+    console.log(avg);
+    function percentage(a){
+     var  percent=(a/300)*100;
+     return percent;
+    }
+    per= percentage(avg);
+    console.log(per);
+}
+main();
