@@ -23,3 +23,23 @@
 //     }
 // }
 // check(year);
+
+// Assignment # 3
+
+// var a = 5; 
+// var b = 6; 
+// var c = 7; 
+// var s;
+// function two(a,b,c,s){
+//     function one(a,b,c){
+//         var s=(a + b + c)/2;
+//         return s;
+//     }
+//     s = one(a,b,c);
+//     console.log(s);
+
+//     var area= (s*((s-a)*(s-b)*(s-c)));
+//     return area;
+// }
+// var area= two(a,b,c,s);
+// console.log(area);
