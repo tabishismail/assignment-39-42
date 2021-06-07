@@ -46,23 +46,58 @@
 
 // Assignment # 4
 
-function main(){
-    var english=+prompt("Enter English marks");
-    var maths=+prompt("Enter Maths marks");
-    var computer=+prompt("Enter Computer marks");
-    var avg;
-    var per;
-    function average(a,b,c){
-        var aver =a+b+c;
-        return aver;
-    }
-    avg =average(english,maths,computer)
-    console.log(avg);
-    function percentage(a){
-     var  percent=(a/300)*100;
-     return percent;
-    }
-    per= percentage(avg);
-    console.log(per);
-}
-main();
+// function main(){
+//     var english=+prompt("Enter English marks");
+//     var maths=+prompt("Enter Maths marks");
+//     var computer=+prompt("Enter Computer marks");
+//     var avg;
+//     var per;
+//     function average(a,b,c){
+//         var aver =a+b+c;
+//         return aver;
+//     }
+//     avg =average(english,maths,computer)
+//     console.log(avg);
+//     function percentage(a){
+//      var  percent=(a/300)*100;
+//      return percent;
+//     }
+//     per= percentage(avg);
+//     console.log(per);
+// }
+// main();
+
+// Assignment # 5
+
+// function check(){
+//         var char=prompt("Enter a character");
+//         var name ="abcdefghijklmnopqrstuvwxyz";
+//         console.log(name.length);
+//         for(var i=0;i<name.length;i++){
+//             var charCheck=name[i];
+//             if(char==charCheck){
+//                 console.log("Index is "+i);
+//                 break;
+//             }
+//            else{
+//             "invalid  input";
+//             }
+//         }
+        
+//     }
+//     check();
+
+// Assignment # 6
+
+// function vowel(str) {             
+//     let newString = " ";                            
+//     for (let i = 0; i < str.length; i++)  
+// {           
+//       if (str[i] != "a" && str[i] != "e" && str[i] != "i" && str[i] != "o" && str[i] != "u")                                   
+//        {           
+//        newString += str[i];         
+//       };   
+//     };   
+//     return newString;   
+//   };  
+//   console.log(vowel(prompt("Enter a string to remove vowels")));
